@@ -19,7 +19,7 @@ body {
   /* background-image: url(images/background.png); */
   /* 배경에 넣을 이미지 */
   /* background-image: url(images/back3-removebg-preview.png); */
-  background-image: url(images/back3.jpg);
+  background-image: url(images/back4_high.png);
   background-size: cover;
   background-position: center;
 }
@@ -257,7 +257,9 @@ nav ul li a:hover::after {
 }
 
 .layer a {
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  margin-top: 100px;
+  margin-right: 200px;
   color: #ff004f;
   text-decoration: none;
   font-size: 18px;
@@ -267,6 +269,18 @@ nav ul li a:hover::after {
   height: 60px;
   border-radius: 50%;
   text-align: center;
+}
+
+#sum1 {
+  margin-top: 20px;
+  font-size: 15px;
+  margin-right: 200px;
+}
+
+#sum2 {
+  margin-top: -100px;
+  font-size: 15px;
+  margin-left: 400px;
 }
 
 .work:hover img {
@@ -380,7 +394,7 @@ nav .fa-solid {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: url(images/mobile2.jpg);
+    background-image: url(images/mobile_high.png);
   }
   .header-text {
     margin-top: 10%;
