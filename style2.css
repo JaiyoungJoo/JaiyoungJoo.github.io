@@ -114,6 +114,10 @@ nav ul li a:hover::after {
   font-weight: 600;
   color: #fff;
 }
+.work-detail {
+  font-size: 30px;
+  padding: 5%;
+}
 
 .tab-tiltes {
   display: flex;
@@ -236,21 +240,24 @@ nav ul li a:hover::after {
   width: 100%;
   height: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.6), black); */
   border-radius: 10px;
   position: absolute;
   left: 0;
   bottom: 0;
   overflow: hidden;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   flex-direction: column;
   padding: 0 40px;
-  text-align: center;
-  font-size: 14px;
+  text-align: left;
+  font-size: 100%;
   transition: height 0.5s;
 }
-
+.layer p {
+  line-height: 3;
+}
 .layer h3 {
   font-weight: 500;
   margin-bottom: 20px;
@@ -261,6 +268,7 @@ nav ul li a:hover::after {
   margin-top: 100px;
   margin-right: 200px;
   color: #ff004f;
+  /* color: black; */
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -269,6 +277,9 @@ nav ul li a:hover::after {
   height: 60px;
   border-radius: 50%;
   text-align: center;
+}
+#sum {
+  font-size: 15px;
 }
 
 #sum1 {
@@ -451,6 +462,9 @@ nav .fa-solid {
   }
   .copyright {
     font-size: 14px;
+  }
+  .layer p {
+    font-size: 10%;
   }
 }
 
